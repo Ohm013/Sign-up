@@ -1,13 +1,14 @@
+@font-face {
+    font-family:anime ;
+    src: url('ONE PIECE.zip')
+}
+
 body{
     display: flex ;
     flex-direction: row;
     justify-content: center;
     align-items: center ;
-}
-
-img {
-    width: 250px;
-    height: 300px;
+    font-family: anime; 
 }
 
 .image-side { 
@@ -18,39 +19,59 @@ img {
     height: 100vh;
     display: flex ;
     justify-content: flex-start;
-    align-items: center ;
+    align-items: flex-start ;
 }
 
 .logo {
     color: black;
-    background-color: brown ;
-    opacity: 100%;
-    
+    background-color: rgb(120, 113, 113) ;
+    opacity: 85%;
+    height:175px;  
+    width: 75%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.logo > p {
+    font-size : 75px ;
+    font-weight: bold;
+}
+img {
+    width: 300px;
+    height: 250px;
 }
 
 fieldset {
     flex-wrap: wrap;
-    width: 1000px ;
-    height: 75px;
+    width: 1000px
+    
 
 }
 
 .form-side {
     background-color:azure;
-    
+ 
+   
 }
 input:invalid {
-    border-color: red;
+    border-color: rgb(236, 102, 102);
 }
 
 input {
     border-color: gray;
+    border-radius: 5px;
+    height: 30px;
+    margin: 20px ;
     
 }
 
 input:valid {
-    border-color: green;
+    border-color: rgb(77, 209, 77);
 
 }
 
 /*  https://c4.wallpaperflare.com/wallpaper/923/720/848/anime-one-piece-monkey-d-luffy-nami-one-piece-wallpaper-preview.jpg' */
+
+/*
