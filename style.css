@@ -1,0 +1,56 @@
+body{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+.image-side { 
+    background-image: url('https://i.pinimg.com/originals/01/e6/7a/01e67ae3608ce023fe79676614ba8952.jpg');
+    background-repeat: no-repeat;
+    width: 950px ;
+    background-size: 75%;
+    height: 100vh;
+    display: flex ;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+.logo {
+    color: black;
+    background-color: brown ;
+    opacity: 100%;
+    
+}
+
+fieldset {
+    flex-wrap: wrap;
+    width: 1000px ;
+    height: 75px;
+
+}
+
+.form-side {
+    background-color:azure;
+    
+}
+input:invalid {
+    border-color: red;
+}
+
+input {
+    border-color: gray;
+    
+}
+
+input:valid {
+    border-color: green;
+
+}
+
+/*  https://c4.wallpaperflare.com/wallpaper/923/720/848/anime-one-piece-monkey-d-luffy-nami-one-piece-wallpaper-preview.jpg' */
