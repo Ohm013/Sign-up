@@ -10,14 +10,16 @@ body{
 }
 
 .image-side { 
-    background-image: url('https://i.pinimg.com/originals/01/e6/7a/01e67ae3608ce023fe79676614ba8952.jpg');
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/078730c2-29fb-4553-a611-fe5ed8e10fc4/dfucbls-18c0681a-f65d-4ef0-96df-479ae219cc19.png/v1/fill/w_1280,h_1280,q_80,strp/one_piece_art_luffy_starring_into_the_long_sea_by_artisticleap_dfucbls-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzA3ODczMGMyLTI5ZmItNDU1My1hNjExLWZlNWVkOGUxMGZjNFwvZGZ1Y2Jscy0xOGMwNjgxYS1mNjVkLTRlZjAtOTZkZi00NzlhZTIxOWNjMTkucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.jEuChg81IhAwKsSbNFuGvy6ffXPBn_9aHgRkEAyuEjA');
     background-repeat: no-repeat;
-    width: 1250px;
-    background-size: 75%;
+    width: 1050px;
+    background-size: cover;
+    background-position: bottom;
     height: 100vh;
     display: flex ;
     justify-content: flex-start;
     align-items: flex-start ;
+    background-color: black;
 }
 
 .logo {
@@ -25,7 +27,7 @@ body{
     background-color: rgb(120, 113, 113) ;
     opacity: 85%;
     height:175px;  
-    width: 75%; 
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +50,9 @@ fieldset {
     flex-direction: row;
     flex-wrap: wrap;
     height: 300px;
+    width: 1100px; 
     background-color: aliceblue;
+    border: none ;
 }
 
 .form-side {
@@ -69,6 +73,7 @@ input {
     border-color: gray;
     border-radius: 5px;
     height: 30px;
+    
 
     
 }
