@@ -1,12 +1,11 @@
-@font-face {
-    font-family:anime ;
-    src: url('ONE PIECE.zip')
-}
+@import url('https://fonts.cdnfonts.com/css/pirata-one');
 
 body{
     display: flex ;
     flex-direction: row;
-    font-family: anime; 
+    font-family: 'Pirata One', sans-serif;
+    font-weight:;
+  
 }
 
 .image-side { 
@@ -34,11 +33,12 @@ body{
     margin-top: 100px;
 
 }
-h2, p {
-    width: 800px;
-    margin: 30px ;
-    
+p {
+    font-size: 25px;
+    width: 60ch ;
+    margin-left: 90px;
 }
+
 img {
     margin-top: 5px;
     width: 350px;
@@ -46,35 +46,45 @@ img {
 }
 
 fieldset {
-    height: 400px; 
+    height: 250px; 
     margin-bottom: 100px;
     background-color:white;
     border: none ;
+    padding-bottom: 50px; 
+    padding-left: 90px;
 }
 
-.form-container {
-    padding: 50px; 
+.input-container {
     display: flex;
     flex-direction:column ;
     flex-wrap: wrap;
-    width:1000px ;
-    height: 170px; ;
+    height: 200px ;
 }
 
 .form-side {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: aliceblue;
     height:100vh ; 
     width: 100vw ;
-    
-   
 }
 input:invalid {
     border-color: rgb(236, 102, 102);
 }
 
+button {
+    border-radius: 5px ;
+    background-color: rgb(234, 151, 151);
+    padding: 10px ;
+    font-size: 30px ;
+    font-weight: ;
+    font-family: inherit;
+}
+
+label {
+    font-size: 20px ;
+}
 input {
     border-color: gray;
     border-radius: 5px;
