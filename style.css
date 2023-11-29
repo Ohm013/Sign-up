@@ -4,21 +4,18 @@ body{
     display: flex ;
     flex-direction: row;
     font-family: 'Pirata One', sans-serif;
-    font-weight:;
-  
 }
 
 .image-side { 
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/078730c2-29fb-4553-a611-fe5ed8e10fc4/dfucbls-18c0681a-f65d-4ef0-96df-479ae219cc19.png/v1/fill/w_1280,h_1280,q_80,strp/one_piece_art_luffy_starring_into_the_long_sea_by_artisticleap_dfucbls-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzA3ODczMGMyLTI5ZmItNDU1My1hNjExLWZlNWVkOGUxMGZjNFwvZGZ1Y2Jscy0xOGMwNjgxYS1mNjVkLTRlZjAtOTZkZi00NzlhZTIxOWNjMTkucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.jEuChg81IhAwKsSbNFuGvy6ffXPBn_9aHgRkEAyuEjA');
     background-repeat: no-repeat;
     width: 1050px;
+    height: 100vh;
     background-size: cover;
     background-position: bottom;
-    height: 100vh;
     display: flex ;
     justify-content: flex-start;
     align-items: flex-start ;
-    background-color: black;
 }
 
 .logo {
@@ -33,11 +30,6 @@ body{
     margin-top: 100px;
 
 }
-p {
-    font-size: 25px;
-    width: 60ch ;
-    margin-left: 90px;
-}
 
 img {
     margin-top: 5px;
@@ -45,8 +37,27 @@ img {
     height: 200px;
 }
 
+.form-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    height:100vh ; 
+    width: 100vw ;
+}
+
+.paragraph {
+    margin-top:80px ; ;
+}
+
+.paragraph > p {
+    font-size: 25px;
+    width: 60ch ;
+    margin-left: 90px;
+}
+
 fieldset {
-    height: 250px; 
+    height: 300px; 
     margin-bottom: 100px;
     background-color:white;
     border: none ;
@@ -58,50 +69,39 @@ fieldset {
     display: flex;
     flex-direction:column ;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     height: 200px ;
 }
 
-.form-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: aliceblue;
-    height:100vh ; 
-    width: 100vw ;
-}
-input:invalid {
-    border-color: rgb(236, 102, 102);
-}
 
-button {
-    border-radius: 5px ;
-    background-color: rgb(234, 151, 151);
-    padding: 10px ;
-    font-size: 30px ;
-    font-weight: ;
-    font-family: inherit;
+.log-in {
+    margin-left: 90px ;
+    font-size: 25px ;
+    
 }
 
 label {
     font-size: 20px ;
 }
+
 input {
     border-color: gray;
     border-radius: 5px;
     height: 30px;
-    width: 250px;
-
-    
-}
-input:focus {
-    background-color: rgb(182, 82, 82);
+    width: 250px;    
 }
 
-input:valid {
-    background-color: rgb(99, 230, 99);
-    
+input[type=submit]{
+    border-radius: 5px ;
+    background-color: rgb(234, 151, 151);
+    font-family: inherit;
+    font-size: 30px ;
+    width: 250px; 
+    height: 60px ;
+    padding: 10px ;
 
 }
+
 
 /*  https://c4.wallpaperflare.com/wallpaper/923/720/848/anime-one-piece-monkey-d-luffy-nami-one-piece-wallpaper-preview.jpg' */
 
