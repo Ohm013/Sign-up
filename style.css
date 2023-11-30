@@ -57,11 +57,11 @@ img {
 }
 
 fieldset {
-    height: 300px; 
-    margin-bottom: 100px;
+    height: 280px; 
+    margin-bottom: 30px;
     background-color:white;
     border: none ;
-    padding-bottom: 50px; 
+    padding-bottom: 60px; 
     padding-left: 90px;
 }
 
@@ -70,7 +70,7 @@ fieldset {
     flex-direction:column ;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 200px ;
+    height: 240px ;
 }
 
 
@@ -84,10 +84,16 @@ label {
     font-size: 20px ;
 }
 
+.required::after {
+    content: "*";
+    color: red; 
+    font-size: 20px;
+}  
+
 input {
     border-color: gray;
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
     width: 250px;    
 }
 
