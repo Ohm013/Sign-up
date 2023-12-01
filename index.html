@@ -27,23 +27,36 @@
                 <h2>Let's do this!</h2>
 
                 <div class = "input-container">
-                    <label for = "first_name" >First name:</label>
-                    <input type = "text" id = "first_name" name = "first_name"  />
+                    <div class = "text-field">
+                        <label for = "first_name" >First name:</label>
+                        <input type = "text" id = "first_name" name = "first_name"  />
+                    </div>
 
-                    <label class = "required" for ="email" > Email:</label>
-                    <input type ="email" id = "email" name = "email" required />
+                    <div class = "text-field">
+                        <label for = "last_name" >Last name:</label>
+                        <input type = "text" id = "last_name" name = "last_name" />
+                    </div>
 
-                    <label class = "required" for = "password">Password:</label>
-                    <input type="password" name = "password" id ="password" required />
+                    <div class = "text-field">
+                        <label class = "required" for ="email" > Email:</label>
+                        <input type ="email" id = "email" name = "email" required />
+                    </div>
 
-                    <label for = "last_name" >Last name:</label>
-                    <input type = "text" id = "last_name" name = "last_name" />
+                    <div class = "text-field">
+                        <label for = 'phone_number' >Phone Number:</label>
+                        <input type = "tel" id = "phone_number" name="phone_number" pattern = ^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$ />
+                    </div>
 
-                    <label for = 'phone_number' >Phone Number:</label>
-                    <input type = "tel" id = "phone_number" name="phone_number" pattern = ^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$ />
-            
-                    <label class = "required" for = "pass_confirm"> Confirm Password:</label>
-                    <input type = "text" name = "pass_confirm" id = "pass_confirm" required />
+                    <div class = "text-field">
+
+                        <label class = "required" for = "password">Password:</label>
+                        <input type="password" name = "password" id ="password" required />
+                    </div>    
+
+                    <div class = "text-field">    
+                        <label class = "required" for = "pass_confirm"> Confirm Password:</label>
+                        <input type = "password" name = "pass_confirm" id = "pass_confirm" required />
+                    </div>
                 </div>
             </fieldset>
 
