@@ -89,18 +89,11 @@ label {
     padding-right: 90px;
 }
 
-.required::after {
-    content: "*";
-    color: red; 
-    font-size: 25px;
-
-}  
-
-input:focus{
+:required:focus:invalid{
     border: 2px solid red;
 }
 
-input:focus:valid {
+:required:focus:valid {
     border:2px solid rgb(118, 225, 118)
 }
 
@@ -112,6 +105,11 @@ input {
     outline:none ;    
 }
 
+label[for="email"]:focus:invalid::after {
+    content: "PLEASE ENTER A VALID EMAIL (JOHNSMITH@EMAIL.COM)";
+    color: red ; 
+    font-size: 10px; 
+}
 
 
 input[type=submit]{
@@ -124,6 +122,14 @@ input[type=submit]{
     height: 60px ;
     padding: 10px ;
 
+}
+
+input[type=submit]:hover {
+    background-color:rgb(233, 106, 133); 
+}
+
+span {
+    color: rgb(232, 95, 125); 
 }
 
 /* Make sure to put "outline:none" when trying to changed border for input:focus bc browser automatically adds borders when focused
