@@ -89,16 +89,18 @@ label {
     padding-right: 90px;
 }
 
-:required + span{
-    margin-bottom:2px ;
+.matchPass {
+    color:red ;
+    font-size: 10px ;
+
 }
 
 :required:focus:invalid{
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 :required:focus:valid {
-    border:1px solid rgb(118, 225, 118)
+    border:2px solid rgb(118, 225, 118)
 }
 
 input {
@@ -107,13 +109,6 @@ input {
     height: 30px;
     width: 300px;
     outline:none ;    
-}
-
-input[type="email"]:focus:invalid + span::before {
-    content: "PLEASE ENTER A VALID EMAIL. EX: JOHNSMITH2EMAIL.COM";
-    font-size: 10px ;
-    font-family:sans-serif; 
-    color:red ;
 }
 
 input[type=submit]{
