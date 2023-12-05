@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up </title>
     <link rel = "stylesheet" href = "style.css">
-    <script src = "javascript.js"></script>
+    <script src = "javascript.js" defer></script>
 
 </head>
 <body>
@@ -26,7 +26,7 @@
 
             <fieldset>
                 <h2>Let's do this!</h2>
-            <form action = "example.com" post = "get">
+            <form action = "#">
                     <div class = "input-container"> 
                         <div class = "text-field">
                             <label for = "first_name" >First name:</label>
@@ -41,34 +41,34 @@
                         <div class = "text-field">
                             <label for ="email" > Email:</label>
                             <input type ="email" placeholder = "JOHNSMITH@EMAIL.COM" id = "email" name = "email" required />
-                            <span ></span>
+                       
                         </div>
                             <p></p>
 
                         <div class = "text-field">
                             <label for = 'phone_number' >Phone Number:</label>
                             <input type = "tel"  placeholder = "1234567890 or 123-456-7890" id = "phone_number" name="phone_number" required pattern = "[0-9]{3}-?[0-9]{3}-?[0-9]{4}" />
-                            <span></span>
                         </div>
 
                         <div class = "text-field">
 
                             <label for = "password">Password:</label>
-                            <input type="password" class = "password" name = "password" id ="password" onkeyup = 'passwordCheck()' required />
+                            <input type="password"  id = "password" class = "password" name = "password" id ="password" required />
                         </div>    
 
                         <div class = "text-field">    
                             <label for = "pass_confirm"> Confirm Password:</label>
-                            <input type = "password" class = "confirmPass" name = "pass_confirm" id = "pass_confirm" onkeyup = 'passwordCheck()' required />
-                            <span class = "matchPass"></span>
+                            <input type = "password" id = "confirmPass" class = "confirmPass" name = "pass_confirm" id = "pass_confirm" required />
+                            
                         </div>
                     </div>
+                    <span id = "matchPass"></span>
                 </fieldset>
            
 
                 <div class = "log-in">
                     <input type ="submit" value = "Create Account"/>
-                    <p>Already have an account? <span>Log In</span></p>
+                    <p>Already have an account? <span class = "account-log-in">Log In</span></p>
                 </div>
             </form>
       
