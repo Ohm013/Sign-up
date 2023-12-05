@@ -79,7 +79,9 @@ fieldset {
     margin-left: 90px ;
     font-size: 25px ;
 }
-
+.account-log-in {
+    color:rgb(231, 114, 114) ;
+}
 label {
     font-size: 20px ;
 }
@@ -127,8 +129,10 @@ input[type=submit]:hover {
     background-color:rgb(233, 106, 133); 
 }
 
-span {
-    color: rgb(232, 95, 125); 
+#matchPass {
+    margin-left: 405px;
+    color:  rgb(231, 114, 114); ;
+    font-size: 15px ;
 }
 
 /* Make sure to put "outline:none" when trying to changed border for input:focus bc browser automatically adds borders when focused
